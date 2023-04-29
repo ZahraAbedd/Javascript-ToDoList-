@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:radial-gradient(ellipse at center, #50d5b7,#067d68);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    font-family: "Poppins" , "sans-serif";
+}
+.container{
+    width: 400px;
+    margin: auto;
+    background-color: white;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+.container .header{
+    margin: auto;
+    background-image: radial-gradient(ellipse at center,#a2ebda,#056856);
+    background-repeat: no-repeat;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 50px 30px;
+}
+.header .overflow p{
+    padding-left: 40px;
+    font-size: 20px;
+    color: white;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-weight: 600;
+
+} 
+.search-item { 
+    width: 350px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0 10px 2px rgb(180, 178, 178);
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-30px);
+}
+.search-item input{
+    padding: 10px;
+    border: 1px solid rgb(209, 205, 205);
+    outline: none;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.add-it input{
+    padding: 10px;
+    border: 1px solid rgb(209, 205, 205);
+    outline: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-size: 15px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+}
+
+.add-it{
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0 10px 2px rgb(180, 178, 178);
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.add-it button{
+    background-color: #82c9bc;
+    padding: 10px;
+    border: 1px solid rgb(184, 174, 174);
+    outline: none;
+    cursor: pointer;
+    border-left: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+ul{
+    width: 100%;
+    list-style-type: none;
+    padding: 10px 0px;
+}
+ li{
+    display: block;
+    background-color: rgb(24, 158, 147);
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    width: 87%;
+    color: white;
+    margin: 20px auto;
+}
+
+li p{
+    margin: auto;
+}
+
+li .options{
+    background-color: black;
+    padding: 11px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius : 20px ;
+
+}
+li .options i{
+    color: white;
+    padding: 0px 5px;
+    cursor: pointer;
+} 
+
+.line{
+    text-decoration: line-through;
+
+}
+ .opacity{
+     opacity: 0.5;
+ }
